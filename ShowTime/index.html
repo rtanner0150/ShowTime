@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" />
+        <title>Index</title>
+    </head>
+    <body>
+        <h1>Weather Test</h1>
+        <p>testing jQuery weather API integration</p>
+        <p>Enter your desired city and state</p>
+        <input type="text" id="location">
+        <input type="submit" id="locationBtn">
+        <div class="weatherOuter">
+            <div class="weatherInner" id="weather">
+                <div class="item" id="city">
+                    <span>Location</span>
+                    <p>San Diego</p>
+                </div>
+                <div class="item" id="temp">
+                    <span>Temperature</span>
+                    <p>70&deg;</p>
+                </div>
+                <div class="item" id="desc">
+                    <span>Weather</span>
+                    <p>Sunny</p>
+                </div>
+                <div class="item" id="min">
+                    <span>Low</span>
+                    <p>52&deg;</p>
+                </div>
+                <div class="item" id="max">
+                    <span>High</span>
+                    <p>78&deg;</p>
+                </div>
+                <div class="item" id="wind">
+                    <span>Winds</span>
+                    <p>Fast</p>
+                </div>
+                <div class="item" id="humid">
+                    <span>Humidity</span>
+                    <p>WET</p>
+                </div>
+                <div class="item" id="sunrise">
+                    <span>Sunrise</span>
+                    <p>7:02 AM</p>
+                </div>
+                <div class="item" id="sunset">
+                    <span>Sunset</span>
+                    <p>7:18 PM</p>
+                </div>
+            </div>
+        </div>
+        <div class="weatherError">Error: No data to display.</div>
+
+        <script src="../jquery-3.5.1.js"></script>
+        <script src="../plugins/OpenWeather/src/openweather.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

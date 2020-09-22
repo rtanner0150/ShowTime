@@ -1,0 +1,11 @@
+body{background:#333; color:#eee; font-size:16px; font-family:'Roboto', sans-serif; font-weight:400;}
+*, * > *{-webkit-box-sizing:border-box; box-sizing:border-box;}
+
+h1, h2{font-family:'Merriweather', serif;}
+
+.weatherOuter{display:none;}
+.weatherError{display:none;}
+.weatherInner{padding:10px; margin:10px 0; float:left; border:2px solid #eee;}
+.weatherInner .item{float:left; padding:0px 10px;}
+.weatherInner .item span{display:block; text-transform:uppercase; padding-bottom:5px; border-bottom:1px solid #eee; margin-bottom:5px;}
+.weatherInner .item p{margin:0;}
