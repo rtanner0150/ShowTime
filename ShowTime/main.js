@@ -27,3 +27,5 @@ jQuery(function(){
 
 });//github testing on dev branch
 //testing push for class
+
+//bandsintown: d9b2788d2fd3bc304d645b11be89694b
